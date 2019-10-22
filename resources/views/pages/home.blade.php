@@ -269,19 +269,19 @@ Trang chủ
 					</div>
 					<div class="col-md-3 hd-ct">
 						<a href="">
-							<img src="images/hd-1.jpg" alt="">
-							<span class="lang" key="sang-tao">Giao lưu bóng đá – Kết nối thế hệ</span>
+							<img src="images/hd-2.jpg" alt="">
+							<span class="lang" key="sang-tao">Cuộc thi người đẹp tranh tài</span>
 						</a>
 					</div>
 					<div class="col-md-3 hd-ct">
 						<a href="">
-							<img src="images/hd-1.jpg" alt="">
-							<span class="lang" key="sang-tao">Giao lưu bóng đá – Kết nối thế hệ</span>
+							<img src="images/hd-3.jpg" alt="">
+							<span class="lang" key="sang-tao">Văn phòng SunWay Hanu</span>
 						</a>
 					</div>
 					<div class="col-md-3 hd-ct">
-						<a href=""><img src="images/hd-1.jpg" alt="">
-							<span class="lang" key="sang-tao">Giao lưu bóng đá – Kết nối thế hệ</span>
+						<a href=""><img src="images/hd-4.jpg" alt="">
+							<span class="lang" key="sang-tao">Tranh giải đệ nhất Hoa Khôi</span>
 						</a>
 					</div>
 				</div>
@@ -354,7 +354,8 @@ Trang chủ
 </div>
 </main>
 <!-- Back to top -->
-<a class="bt-top" href="#"><i class="fa fa-angle-double-up"></i></a>
+<div class="phone-fix">
+	<a class="bt-top" href="#"><i class="fa fa-angle-double-up"></i></a>
 <!-- Phone-Ring -->
 <div class="phonering-alo-phone phonering-alo-green phonering-alo-show">
 	<!-- <div class="phonering-alo-ph-circle"></div> -->
@@ -365,6 +366,8 @@ Trang chủ
 			Hotline: (84-24) 38544338
 		</span>
 	</a>
+</div>
+
 	
 </div>
 

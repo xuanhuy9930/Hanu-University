@@ -180,6 +180,9 @@ var arrLang = {
       'nhieu-thongtin' : 'những thông tin khác',
       'hoatdong' : 'hoạt động của tổ chức',
       'news' : 'tin tức',
+      'h3-1' : 'Lễ khai giảng và trao bằng tốt nghiệp cho sinh viên chương trình liên kết đào tạo ngành Quản trị Du lịch và Lữ hành năm học 2019',
+      'h3-2' : 'Thư cảm ơn của Hiệu trưởng - đại diện Ban tổ chức Ngày Dịch thuật Quốc tế - Translator Day 2019 “Bản địa hóa và Xu hướng dịch thuật 4.0” và Lễ công bố hợp tác 03 bên',
+      'h3-3' : 'Lịch thi tuyển sinh Bằng Đại học thứ 2 - Ngành ngôn ngữ Anh, ngày thi 20/10/2019',
       'lien-ket' : 'liên kết nhanh',
       // end main
       // footer

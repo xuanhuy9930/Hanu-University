@@ -575,6 +575,9 @@ text-transform: capitalize;
 	text-decoration: none;
 	
 }
+.hd-ct img{
+	height: 170px;
+}
 .title-tt{
 	text-transform: uppercase;
     font-size: 30px;
