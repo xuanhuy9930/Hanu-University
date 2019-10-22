@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+    background-position: center; 
+}
+ul{
+    list-style: none;
+}
+.ct-daotao{
+    padding: 0 5%;
+}
+.ct-daotao img{
+    margin-bottom: 5%;
+}
+.ct-daotao h3{
+        display: block;
+    background: #af213c;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 5px 0 5px 15px;
+    width: 40%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.ct-daotao h4{
+    font-weight: bold;
+    margin: 3% 0;
+}
+@media (min-width: 320px) and (max-width: 767px){
+    .ct-daotao h3{
+        width: 90%;
+        margin-top: 5%;
+    }
+    
+}
+/*Liên Hệ*/
+#lienhe{
+    background-color: rgba(245,245,245,1);
+}
+.lienhe-tv{
+    padding-bottom: 20%;
+    text-align: center;
+    padding-top: 5%;
+    border: 5px solid #af213c;
+    padding-top: 10%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+.lienhe-tv h2{
+    text-transform: uppercase;
+    color: #af213c;
+    font-size: 30px;
+    font-weight: 600;
+}
+.lienhe-tv textarea{
+    margin-top: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.lienhe-tv a{
+    background-color: #af213c;
+    color: #fff;
+    padding: 5% 5%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #af213c;
+    font-weight: 600;
+}
+.lienhe-tv a:hover{
+    background-color: inherit;
+    transition: all 0.4s;
+    border: 1px solid #af213c;
+    color: #000;
+    text-decoration: none;
+}
+.loi-ich h2{
+    color: #af213c;
+    text-align: center;
+    font-weight: 700;
+    margin: 5% 0;
+}
+.loi-ich li{
+    font-size: 20px;
+    margin-left: 10%;
+    line-height: 35px;
+}
+.loi-ich i{
+    color: green;
+    margin-right: 2%;
+    font-size: 30px;
+}
+.loi-ich span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.lienhe-qc{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.lienhe-qc h2{
+
+    font-weight: 600;
+    color: #af213c;
+    font-size: 40px;
+}
+.lienhe-qc p{
+    font-size: 30px;
+    color: #af213c;
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .lienhe-tv{
+        overflow: hidden ;
+
+    }
+    .lienhe-tv textarea{
+        width: 240px;
+    }
+    .lienhe-tv h2 {
+        font-size: 22px;
+    }
+}
