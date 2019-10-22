@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center; 
+}
+ul{
+  list-style: none;
+  margin-bottom: 0px;
+}
+#tuyendung{
+  border-top: 1px solid #ccc;
+}
+.back-home{
+  margin: 3% 0;
+}
+.back-home a{
+  color: #000;
+  text-transform: capitalize;
+}
+.back-home a:hover{
+  color: #af213c;
+}
+.title-tuyendung{
+  border-bottom: 1px dashed #ccc;
+  text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+.full-tuyensinh{
+      border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+.title-tuyensinh {
+  display: block;
+    background: #af213c;
+    font-size: 20px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    padding: 5px 0 5px 10px;
+    color: #fff;
+    border-bottom: 0 !important;
+}
+.a-daotao{
+      padding: 5px 0 5px 25px;
+      color: #000;
+      transition: all 0.4s;
+      display: block;
+      border-bottom: 1px dashed #ccc;
+
+}
+/*.a-daotao:last-child(){
+    border-bottom: none;
+}*/
+.a-daotao:hover{
+  text-decoration: none;
+  padding-left: 40px;
+  color: #af213c;
+}
+.link-ct{
+  margin-right: 25%;
+  margin-top: 2%;
+}
+.link-ct a{
+  font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.link-ct a:hover{
+  color: #af213c;
+  text-decoration: none;
+}
+.img-tuyendung{
+  overflow: hidden;
+ 
+}
+.img-tuyendung img{
+   transition: all 0.4s;
+   width: 100%;
+   height: 150px;
+}
+.img-tuyendung img:hover{
+  transform: scale(1.2);
+}
+.pagination {
+  display: inline-block;
+
+    margin: auto;
+    margin-top: 10%;
+}
+
+.pagination a {
+  color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #af213c;
+    margin: 0 3px 0 3px;
+    border-radius: 50%;
+}
+
+.pagination a.active {
+  background-color: #af213c;
+  color: white;
+  border: 1px solid #af213c;
+}
+.title-chitiet-td{
+  text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+}
+.calendar{
+  display: flex;
+    justify-content: flex-end;
+    color: #908C8C;
+    padding-right: 7%;
+}
+.calendar i{
+  margin:2px 5px 0 0;
+}
+.img-ct{
+  width: 100%;
+    height: 400px;
+    padding: 5% 7%;
+}
+.p-p{
+      padding: 0 7%;
+    font-size: 20px;
+}
+.link{
+  padding: 0 7%;
+font-size: 20px;
+/*text-transform: uppercase;*/
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+@media (min-width: 320px) and (max-width: 767px){
+  .link-ct{
+    margin-right: 0;
+    text-align: center;
+
+  }
+}
